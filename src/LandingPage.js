@@ -7,21 +7,33 @@ const LandingPage = () => {
       <section>
         <h2>Candidate Details</h2>
         <p>
-          <strong>First Name:</strong> John
+          <strong>First Name:</strong> Samyak
         </p>
         <p>
-          <strong>Highest Degree Passout Year:</strong> December 2022
+          <strong>Highest Degree Passout Year:</strong> Jun 2024
         </p>
         <p>
           <strong>Technologies/Languages:</strong>
-          <ul><strong>Frontend Technologies:</strong></ul>  Html, css, javascript, tailwind css, material UI, Three js and redux
-          <ul><strong>Backend Technologies: </strong></ul>  NodeJs, ExpressJS, jsonwebtoken, bcrypt, mongoDB, 
+          <ul>
+            <li>
+              <strong>Frontend Technologies:</strong> Html, css, javascript, tailwind css, material UI, Three js, and redux
+            </li>
+            <li>
+              <strong>Backend Technologies:</strong> NodeJs, ExpressJS, jsonwebtoken, bcrypt, mongoDB, nodemailer, mongoose
+            </li>
+          </ul>
         </p>
       </section>
 
       <section>
         <h2>Download Resume</h2>
-        <p>Include a link to download the resume here.</p>
+        <p>
+          Download my resume from{' '}
+          <a href="https://drive.google.com/file/d/15SJma2VYPxguUT9MVgEwJtYtRSZ4VyFW/view?usp=sharing" target="_blank">
+            Google Drive
+          </a>
+          .
+        </p>
       </section>
 
       <section>
